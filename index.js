@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 8000;
 app.use(express.json());
 app.use(cors());
 
-app.use('/', router);
+app.use('/https://file-sharing-app-backend-47yq.onrender.com', router);
 
 app.listen(PORT, () => {
   console.log(`Server is running at port no. ${PORT}`)
